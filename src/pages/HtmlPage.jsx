@@ -1,12 +1,13 @@
 import React from "react";
-
-
+import TodoIndex from '../ToDo/TodoIndex';
 function HtmlPage() {
+
+   
+
     return (
-        <div>
-            <h1>4</h1>
-            <p>4</p>
-        </div>
+       <div >
+           <TodoIndex />
+       </div>
     )
 
 
