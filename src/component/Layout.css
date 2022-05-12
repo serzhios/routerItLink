@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+   
+}
+
+
+
+.Header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #6fb4e0; 
+}
+
+
+
+.Logos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    color: rgb(14, 13, 13); 
+}
+
+.LogoImg {
+    height: 30px;
+    width: 35px;   
+}
+
+.header {     
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+
+
+a {
+    text-transform: uppercase;
+    text-decoration: none; 
+    list-style-type: none;   
+    color: rgb(250, 248, 248); 
+    margin-right: 15px;
+}
+
+.headerCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    margin-top: 100px;
+    
+}
